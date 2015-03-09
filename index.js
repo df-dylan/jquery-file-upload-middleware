@@ -55,4 +55,4 @@ JqueryFileUploadMiddleware.prototype.fileManager = function (options) {
     return require('./lib/filemanager')(this, this.prepareOptions(_.extend(this.options, options)));
 };
 
-module.exports = new JqueryFileUploadMiddleware();
+module.exports = JqueryFileUploadMiddleware;
